@@ -77,12 +77,6 @@ The project consists of three main components:
 
 ### 1. Environment Setup
 
-Copy the example environment variables file and configure it:
-
-```bash
-cp .env.example .env
-```
-
 Ensure the following key variables are set in your `.env`:
 *   `OPENAI_API_KEY`: Your OpenAI API key.
 *   `CHECKPOINT_POSTGRES_URL`: Connection string to your PostgreSQL instance.
