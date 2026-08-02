@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ignored by user request
+.agents/
+.ruf_cache/
+.ruff_cache/
+architechture/
+charts/
+uploads/
+.env
+.python-version
+pyproject.toml
+skills-lock.json
+uv.lock

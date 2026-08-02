@@ -1,0 +1,26 @@
+# Core LangChain + LangGraph
+langchain
+langchain-core
+langgraph
+langsmith
+langgraph-checkpoint-postgres
+# LLM Provider
+langchain-openai
+langchain-community
+tavily-python
+
+# FastAPI Stack
+fastapi
+uvicorn[standard]
+
+
+# Data / Analysis
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+
+# Utilities
+python-dotenv
+psycopg[binary]
