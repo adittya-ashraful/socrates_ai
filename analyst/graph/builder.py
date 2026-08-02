@@ -1,15 +1,5 @@
 """Graph builder — wires all nodes and edges into the LangGraph StateGraph.
 
-Architecture flow:
-    START → intent_classifier → [route_by_intent]
-      ├─ "direct_answer" → final_response_simple → END
-      └─ "planner" → planner → [fan_out_to_tools]
-                                  ├─ sql_tool ──┐
-                                  ├─ search_tool ┼→ merge_dataset → analysis → [chart_check]
-                                  └─ file_executor ──┘                               ├─ visualization → evaluator
-                                                                                  └─ evaluator
-                                                                                       ↓
-                                                                                 final_response → END
 """
 
 from __future__ import annotations
